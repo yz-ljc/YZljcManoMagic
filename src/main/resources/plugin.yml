@@ -1,0 +1,19 @@
+name: Manoyinxi
+main: top.yzljc.manosaba.Manoyinxi
+version: 1.0.0
+author: YZ_Ljc_
+api-version: 1.21
+description: 魔法少女的魔女审判 - 技能篇
+
+commands:
+  mano:
+    description: 管理魔女化程度与激活魔法 (get/set/grant)
+    usage: /mano <set|get|grant|activate> <player> [amount|magicId]
+    aliases: [manosaba, manoadmin]
+    permission: manosaba.admin
+    permission-message: "&c你没有权限执行此操作！"
+
+permissions:
+  manosaba.admin:
+    description: 管理所有魔女插件指令
+    default: op
